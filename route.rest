@@ -1,0 +1,9 @@
+GET http://localhost:3000/urlshortner
+
+####
+POST http://localhost:3000/urlshortner
+Content-Type: application/json
+
+{
+    "fullUrl": "http:"
+}
